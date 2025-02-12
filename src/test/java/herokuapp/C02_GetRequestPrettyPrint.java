@@ -13,7 +13,7 @@ public class C02_GetRequestPrettyPrint {
         String url = "https://restful-booker.herokuapp.com/booking/143";
 
         Response response = given().when().get(url);
-        response.prettyPrint();    //System.out.println(response.getBody()); ???
+       // response.prettyPrint();    //System.out.println(response.getBody()); ???
         System.out.println("Status Code: " + response.getStatusCode() +
                             "\nContent Type: " + response.contentType() +
                             "\nServer header Value: " + response.getHeader("Server"));
