@@ -11,7 +11,8 @@ public class C01_GetRequest {
     @Test
     public void get01(){
 
-        String url = "https://restful-booker.herokuapp.com/booking/143";
+        String url = "https://jsonplaceholder.typicode.com/posts/70";
+        String url2 = "https://restful-booker.herokuapp.com/booking/143";
 
         Response response = given().when().get(url);
         response.prettyPrint();
