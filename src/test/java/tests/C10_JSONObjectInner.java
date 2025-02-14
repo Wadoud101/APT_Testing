@@ -1,4 +1,4 @@
-package herokuapp;
+package tests;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
