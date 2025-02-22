@@ -28,7 +28,7 @@ public class C28_Put_DeSerialization extends BaseUrlJsonPlaceHolder {
                             .put("/{pp1}/{pp2}");
 
 
-        Map<String, Object> responseMap = response.as(HashMap.class);
+        Map responseMap = response.as(HashMap.class);
         System.out.println(responseMap);
 
         assertEquals(expectedData.get("title"),responseMap.get("title"));
